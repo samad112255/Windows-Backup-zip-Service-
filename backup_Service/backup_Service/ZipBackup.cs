@@ -16,25 +16,34 @@ namespace backup_Service
 
         public static void BackupAndDelete()
         {
+
+            DirectoryInfo directorySource = new DirectoryInfo(startndeletePath);
+            DirectoryInfo directoryDestination = new DirectoryInfo(zipPath);
+
+            if (directorySource.GetFiles().Length != 0)
+            {
+                if (directoryDestination.GetFiles().Length == 0)
+                {
+                    CompressFile(startndeletePath, zipPath);
+                    DeleteFileAllFiles(startndeletePath);
+                }
+                else
+                {
+                    DeleteFileAllFiles(zipPath);
+                    CompressFile(startndeletePath, zipPath);
+                    DeleteFileAllFiles(startndeletePath);
+                }
+
+            }
             
-          
-            try
-            {
-                CompressFile(startndeletePath, zipPath);
-                DeleteFile(startndeletePath);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
         }
 
         public static void CompressFile(string pathFrom, string pathTo)
         {
-            ZipFile.CreateFromDirectory(pathFrom, pathTo + fileName + DateTime.Now.ToString("yyyy-MM-dd h:mm tt"));
+            ZipFile.CreateFromDirectory(pathFrom, pathTo + fileName);
         }
 
-        public static void DeleteFile(string path)
+        public static void DeleteFileAllFiles(string path)
         {
             DirectoryInfo di = new DirectoryInfo(path);
             foreach (FileInfo file in di.GetFiles())

@@ -33,7 +33,7 @@ namespace backup_Service
         {
           
             timer = new Timer();
-            timer.Interval = 1000 * time; // 60 seconds
+            timer.Interval = (((60000)*60)*time); // 
             timer.Elapsed += new ElapsedEventHandler(this.OnCreateBackup);
             timer.Enabled = true;
 
