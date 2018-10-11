@@ -1,0 +1,9 @@
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\obj\Debug\backup_Service.csprojAssemblyReference.cache
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\obj\Debug\backup_Service.ProjectInstaller.resources
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\obj\Debug\backup_Service.csproj.GenerateResource.cache
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\obj\Debug\backup_Service.csproj.CoreCompileInputs.cache
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\bin\Debug\backup_Service.exe.config
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\bin\Debug\backup_Service.exe
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\bin\Debug\backup_Service.pdb
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\obj\Debug\backup_Service.exe
+C:\Users\iqrar\source\repos\backup_Service\backup_Service\obj\Debug\backup_Service.pdb

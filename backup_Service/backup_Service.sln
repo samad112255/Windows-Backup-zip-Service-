@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backup_Service", "backup_Service\backup_Service.csproj", "{E3DDE76D-5BDF-4B5D-9D0F-A2E41957302E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3DDE76D-5BDF-4B5D-9D0F-A2E41957302E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DDE76D-5BDF-4B5D-9D0F-A2E41957302E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DDE76D-5BDF-4B5D-9D0F-A2E41957302E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DDE76D-5BDF-4B5D-9D0F-A2E41957302E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06CD6B93-D65B-4A68-A969-67A7415FCE40}
+	EndGlobalSection
+EndGlobal
